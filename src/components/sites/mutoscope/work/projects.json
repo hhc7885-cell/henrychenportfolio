@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "pelagraph",
+    "title": "Pelagraph",
+    "essence": "Website for a seafloor mapping platform",
+    "client": "Pelagraph",
+    "industry": "Software",
+    "services": "Web design · Development",
+    "year": "2026",
+    "timeline": "8 weeks",
+    "location": "Providence, Rhode Island",
+    "about": "Pelagraph surveys the seabed for companies planning offshore wind farms and delivers the results in its own mapping platform. The old site explained the platform in long paragraphs and kept every map behind a demo request. The engineers who pick a survey vendor want to see data before they talk to anyone.",
+    "did": "I put a contour relief from a sample survey on the first screen, kept the depth labels on it, and held the headline to three words. The site is short: how the platform works, how a survey runs, sample data, then the request form. I built it too. Each survey is an entry the team publishes on its own.",
+    "cover": "/sites/mutoscope/projects/pelagraph/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/pelagraph/screen-1.jpg",
+      "/sites/mutoscope/projects/pelagraph/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "ostrander-field",
+    "title": "Ostrander Field",
+    "essence": "Online store for an outerwear label",
+    "client": "Ostrander Field",
+    "industry": "Fashion",
+    "services": "Art direction · Web design",
+    "year": "2025",
+    "timeline": "6 weeks",
+    "location": "Duluth, Minnesota",
+    "about": "Ostrander Field makes wool coats and parkas in Duluth, a few styles each season. The old store showed every coat as a small catalog thumbnail.",
+    "did": "I art directed a shoot with no models: each coat on an invisible form, lit from the side, so you can see the cut and the cloth. The wordmark runs behind the coat in a tall condensed serif. A product page opens with one large photograph and keeps size, fabric, and care in a single column. The lookbook sits on the same grid, so a new season only needs new photographs.",
+    "cover": "/sites/mutoscope/projects/ostrander-field/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/ostrander-field/screen-1.jpg",
+      "/sites/mutoscope/projects/ostrander-field/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "silvanine",
+    "title": "Silvanine",
+    "essence": "Brand and website for a forest carbon marketplace",
+    "client": "Silvanine",
+    "industry": "Climate",
+    "services": "Web design · Brand",
+    "year": "2025",
+    "timeline": "9 weeks",
+    "location": "Burlington, Vermont",
+    "about": "Silvanine helps family forest owners enroll their woodland in a voluntary carbon program and connects them with the companies buying the credits. The two groups share almost no vocabulary, and one site has to speak to both.",
+    "did": "I started with the brand: a dark green wordmark in a serif that holds up on top of an aerial photograph. On the site every forest is a parcel seen from above, outlined, with its acreage next to it. The first screen speaks to landowners. Buyers go in through the parcel catalog. The method page explains in plain language how a credit is measured, with each source linked.",
+    "cover": "/sites/mutoscope/projects/silvanine/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/silvanine/screen-1.jpg",
+      "/sites/mutoscope/projects/silvanine/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "plume-atlas",
+    "title": "Plume Atlas",
+    "essence": "Trip catalog for a birding tour company",
+    "client": "Plume Atlas",
+    "industry": "Travel",
+    "services": "Web design · Development",
+    "year": "2024",
+    "timeline": "7 weeks",
+    "location": "Tucson, Arizona",
+    "about": "Plume Atlas runs small-group birding trips led by local guides. The trip list used to be a PDF that went out by email twice a year, and it was out of date a week later.",
+    "did": "I designed the site like a field journal: cream paper and one bird per trip, cut out and set large. A trip page lists the dates, the guide, the birds people usually see, and what a day looks like. Trips and guides live in the CMS, and the list on the homepage pulls from the same dates the team edits.",
+    "cover": "/sites/mutoscope/projects/plume-atlas/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/plume-atlas/screen-1.jpg",
+      "/sites/mutoscope/projects/plume-atlas/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "oddfathom",
+    "title": "Oddfathom",
+    "essence": "Studio site for a deep-sea game developer",
+    "client": "Oddfathom",
+    "industry": "Games",
+    "services": "Art direction · Web design · Motion",
+    "year": "2026",
+    "timeline": "10 weeks",
+    "location": "Madison, Wisconsin",
+    "about": "Oddfathom is a small independent studio making adventure games set in the deep sea. With a new game announced for 2027, they needed one place for the trailer, the press kit, and the devlog.",
+    "did": "The creatures are the studio’s own 3D models. I art directed how they appear on the site: a black page, their own glow as the only light, and the wordmark set low so a creature can drift across it. I designed the page transitions and the trailer reveal, then documented the motion step by step for the studio’s programmer, who built it. The devlog is plain on purpose, so a post takes minutes to publish.",
+    "cover": "/sites/mutoscope/projects/oddfathom/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/oddfathom/screen-1.jpg",
+      "/sites/mutoscope/projects/oddfathom/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "nye-okada",
+    "title": "Nye Okada",
+    "essence": "Portfolio for an architecture practice",
+    "client": "Nye Okada",
+    "industry": "Architecture",
+    "services": "Web design",
+    "year": "2024",
+    "timeline": "5 weeks",
+    "location": "Minneapolis, Minnesota",
+    "about": "Nye Okada is an architecture practice in Minneapolis that designs houses and small civic buildings. The partners asked for a quiet site with small type and large photographs.",
+    "did": "I set the whole site on one thin grid and placed each photograph off center on it, the way a drawing sits on a sheet. Projects are numbered, and that numbered index is the navigation. The type is one light grotesque in two sizes. A project page holds photographs, a plan, and five lines of facts. A developer built it from my files.",
+    "cover": "/sites/mutoscope/projects/nye-okada/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/nye-okada/screen-1.jpg",
+      "/sites/mutoscope/projects/nye-okada/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "the-ostler",
+    "title": "The Ostler",
+    "essence": "Website for a 28-room hotel",
+    "client": "The Ostler",
+    "industry": "Hospitality",
+    "services": "Art direction · Web design · Development",
+    "year": "2025",
+    "timeline": "8 weeks",
+    "location": "Lexington, Kentucky",
+    "about": "The Ostler is a 28-room hotel in a former livery stable in Lexington. It was weeks from opening, with a booking engine and no site to send guests to.",
+    "did": "The building has arched stable doors, so the arch became the frame for every photograph on the site. I art directed the room photography: brick, linen, one brass lamp, nobody in the shot. The colors come from the building too, oxblood and cream. I built the site so the staff can update rooms, the dining menu, and bar hours themselves, and I pointed Book a stay at their booking engine.",
+    "cover": "/sites/mutoscope/projects/the-ostler/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/the-ostler/screen-1.jpg",
+      "/sites/mutoscope/projects/the-ostler/screen-2.jpg"
+    ]
+  },
+  {
+    "slug": "saltlick-labs",
+    "title": "Saltlick Labs",
+    "essence": "Marketing site for restaurant sales analytics",
+    "client": "Saltlick Labs",
+    "industry": "AI",
+    "services": "Web design · Development",
+    "year": "2026",
+    "timeline": "6 weeks",
+    "location": "Chicago, Illinois",
+    "about": "Saltlick Labs reads a restaurant group’s sales as they happen and tells managers what sold, and where, before the kitchen closes. Its models also forecast what to prep tomorrow. The product worked, and the website was a login page.",
+    "did": "I wrote the headline with the founders first and designed the page under it. The interface appears as cards with real dish names, large enough to read, so an operator understands the product before booking a demo. I kept one typeface and one orange. The pricing page has three plans. I built the site and left room for customer stories the team will add later.",
+    "cover": "/sites/mutoscope/projects/saltlick-labs/cover.jpg",
+    "screens": [
+      "/sites/mutoscope/projects/saltlick-labs/screen-1.jpg",
+      "/sites/mutoscope/projects/saltlick-labs/screen-2.jpg"
+    ]
+  }
+]
