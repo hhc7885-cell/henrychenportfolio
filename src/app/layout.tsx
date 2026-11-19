@@ -6,8 +6,8 @@ import { SiteAudio } from "@/components/sites/mutoscope/SiteAudio";
 
 export const metadata: Metadata = {
   title: {
-    default: "henrychenportfolio",
-    template: "%s | henrychenportfolio",
+    default: "Henry Chen | Creative strategy, marketing & AI",
+    template: "%s | Henry Chen",
   },
   description:
     "陈豪辉 Henry Chen 的个人作品集，展示品牌策略、创意传播、消费品概念与 AI 交互探索。",

@@ -43,7 +43,7 @@ export function Header() {
   return (
     <header className={"topbar " + (route === "/" ? "overlay" : "")}>
       <Link className="brand" href="/">
-        henrychenportfolio
+        Henry Chen
       </Link>
       <nav>{nav}</nav>
       <div className="tools">
