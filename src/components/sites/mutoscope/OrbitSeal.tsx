@@ -36,7 +36,7 @@ export function OrbitSeal({ className = "" }: { className?: string }) {
                 textLength={2 * Math.PI * 72}
                 lengthAdjust="spacing"
               >
-                START A PROJECT · START A PROJECT ·{" "}
+                LET’S MAKE IT REAL · LET’S MAKE IT REAL ·{" "}
               </textPath>
             </text>
           </g>

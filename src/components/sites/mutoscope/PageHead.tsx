@@ -4,7 +4,8 @@ export function PageHead({ page }: { page: keyof typeof content }) {
   return (
     <div className={"pageHead " + page + "Head"}>
       <h1>{title}</h1>
-      <p>{intro}</p>
+      {intro && <p>{intro}</p>}
     </div>
   );
 }
+

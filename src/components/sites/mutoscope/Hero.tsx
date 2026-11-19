@@ -248,7 +248,7 @@ export default function Hero() {
       ref={root}
       className={styles.hero}
       data-phase={phase}
-      aria-label="Miles Okoro, independent web designer in Chicago"
+      aria-label="Henry Chen, creative strategy, marketing and AI experiments"
       onClickCapture={(e) => {
         if (dragged.current) {
           e.preventDefault();
@@ -380,8 +380,10 @@ export default function Hero() {
         <span>﹀ {phone ? "Swipe" : "Scroll"} to browse</span>
         <span>
           {phone
-            ? String(wrap(active) + 1).padStart(2, "0") + " / 08"
-            : "Independent web designer · Chicago, Illinois"}
+            ? String(wrap(active) + 1).padStart(2, "0") +
+              " / " +
+              String(projects.length).padStart(2, "0")
+            : "Brand thinking · Creative making"}
         </span>
       </div>
       <span ref={cursor} className={styles.cursor}>
@@ -389,8 +391,8 @@ export default function Hero() {
       </span>
       {phase !== "browse" && (
         <div className={styles.intro} aria-hidden="true">
-          <span style={{ top: mid }}>Miles Okoro</span>
-          <small>Independent web designer · Chicago, Illinois</small>
+          <span style={{ top: mid }}>Henry Chen</span>
+          <small>Brand thinking · Creative making</small>
         </div>
       )}
     </main>

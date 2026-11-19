@@ -19,15 +19,15 @@ export function ContactForm() {
           .filter((v) => v !== null)
           .join("\n");
         window.location.href =
-          "mailto:hello@milesokoro.com?subject=Website%20project&body=" +
+          "mailto:hhc7885@gmail.com?subject=Creative%20collaboration&body=" +
           encodeURIComponent(body);
         setOpened(true);
       }}
     >
       <input
         name="name"
-        aria-label="Your name"
-        placeholder="Your name"
+        aria-label="你的姓名"
+        placeholder="你的姓名"
         autoComplete="name"
         required
       />
@@ -42,20 +42,20 @@ export function ContactForm() {
       <input
         name="company"
         aria-label="Company"
-        placeholder="Company"
+        placeholder="公司或团队（选填）"
         autoComplete="organization"
       />
       <textarea
         name="brief"
         aria-label="Project brief"
-        placeholder="What should the new site do?"
+        placeholder="你想一起做些什么？"
         required
       />
       <button type="submit">Send</button>
       <small>
         {opened
-          ? "Finish sending in your email app."
-          : "Send opens a draft in your email app."}{" "}
+          ? "请在邮件应用中确认并发送。"
+          : "点击 Send 会在你的邮件应用中生成草稿。"}{" "}
         <Link href="/privacy">Privacy policy.</Link>
       </small>
     </form>

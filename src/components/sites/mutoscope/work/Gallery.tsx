@@ -203,11 +203,11 @@ export function Gallery({
           ) : (
             <section className="projectNotes">
               <div>
-                <h2>About the project</h2>
+                <h2>项目背景</h2>
                 {p.about}
               </div>
               <div>
-                <h2>What I did</h2>
+                <h2>我的工作</h2>
                 {p.did}
               </div>
             </section>
@@ -232,6 +232,14 @@ export function Gallery({
         <h1>{p.title}</h1>
         <p>{p.essence}</p>
         {meta}
+        <a
+          className="projectSource"
+          href={p.source.startsWith("/") ? publicAsset(p.source) : p.source}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {p.sourceLabel}
+        </a>
       </aside>
       <span className="galHint">
         Drag or scroll to move through the screens

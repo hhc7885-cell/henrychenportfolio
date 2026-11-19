@@ -1,18 +1,15 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Moon, Sun, Volume2, VolumeX } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { OrbitSeal } from "./OrbitSeal";
+import { SoundToggle } from "./SiteAudio";
 
 export function Socials() {
   return (
     <div className="socials">
-      {[
-        ["LinkedIn", "https://www.linkedin.com/"],
-        ["Dribbble", "https://dribbble.com/"],
-        ["Instagram", "https://www.instagram.com/"],
-      ].map(([label, url]) => (
+      {[["GitHub", "https://github.com/hhc7885-cell"]].map(([label, url]) => (
         <a key={label} href={url} target="_blank" rel="noreferrer">
           {label} ↗
         </a>
@@ -22,55 +19,18 @@ export function Socials() {
 }
 export function Header() {
   const route = usePathname().replace(/\/$/, "") || "/",
-    menu = useRef<HTMLDialogElement>(null),
-    audio = useRef<AudioContext | null>(null);
+    menu = useRef<HTMLDialogElement>(null);
   const [menuTime, setMenuTime] = useState("");
-  const [dark, setDark] = useState(false),
-    [sound, setSound] = useState(false);
+  const [dark, setDark] = useState(false);
   useEffect(() => {
     const sync = () => {
       const value = localStorage.getItem("muto-theme") === "dark";
       document.documentElement.dataset.theme = value ? "dark" : "light";
       setDark(value);
-      setSound(localStorage.getItem("muto-sound") === "on");
     };
     const frame = requestAnimationFrame(sync);
     return () => cancelAnimationFrame(frame);
   }, []);
-  useEffect(() => {
-    if (!sound) return;
-    function tone() {
-      const ctx = audio.current;
-      if (!ctx || ctx.state !== "running") return;
-      const oscillator = ctx.createOscillator(),
-        gain = ctx.createGain();
-      oscillator.frequency.setValueAtTime(360, ctx.currentTime);
-      oscillator.frequency.exponentialRampToValueAtTime(
-        100,
-        ctx.currentTime + 0.08,
-      );
-      gain.gain.setValueAtTime(0.025, ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.1);
-      oscillator.connect(gain).connect(ctx.destination);
-      oscillator.start();
-      oscillator.stop(ctx.currentTime + 0.11);
-    }
-    let previous = -1;
-    function reel(e: Event) {
-      const n = Math.round((e as CustomEvent).detail.rot);
-      if (n !== previous) {
-        tone();
-        previous = n;
-      }
-    }
-    window.addEventListener("pointerdown", tone);
-    window.addEventListener("mutoscope:reel", reel);
-    return () => {
-      window.removeEventListener("pointerdown", tone);
-      window.removeEventListener("mutoscope:reel", reel);
-    };
-  }, [sound]);
-  if (route.startsWith("/work/")) return null;
   const nav = ["Work", "About", "Contact"].map((label) => (
     <Link
       key={label}
@@ -83,7 +43,7 @@ export function Header() {
   return (
     <header className={"topbar " + (route === "/" ? "overlay" : "")}>
       <Link className="brand" href="/">
-        Miles Okoro
+        Henry Chen
       </Link>
       <nav>{nav}</nav>
       <div className="tools">
@@ -98,20 +58,7 @@ export function Header() {
         >
           {dark ? <Sun /> : <Moon />}
         </button>
-        <button
-          aria-label={sound ? "Mute sound" : "Enable sound"}
-          aria-pressed={sound}
-          onClick={() => {
-            if (!sound) {
-              audio.current ??= new AudioContext();
-              void audio.current.resume();
-            }
-            setSound(!sound);
-            localStorage.setItem("muto-sound", sound ? "off" : "on");
-          }}
-        >
-          {sound ? <Volume2 /> : <VolumeX />}
-        </button>
+        <SoundToggle />
       </div>
       <button
         className="menuToggle"
@@ -120,7 +67,7 @@ export function Header() {
             new Intl.DateTimeFormat("en-US", {
               hour: "numeric",
               minute: "2-digit",
-              timeZone: "America/Chicago",
+              timeZone: "Asia/Shanghai",
             }).format(new Date()),
           );
           menu.current?.showModal();
@@ -132,13 +79,13 @@ export function Header() {
         <button onClick={() => menu.current?.close()}>Close</button>
         <section className="menuLinks">{nav}</section>
         <section className="menuInfo">
-          <a className="menuMail" href="mailto:hello@milesokoro.com">
-            hello@milesokoro.com
+          <a className="menuMail" href="mailto:hhc7885@gmail.com">
+            hhc7885@gmail.com
           </a>
-          <p>Chicago, Illinois · {menuTime} local</p>
+          <p>Guangzhou, China · {menuTime} local</p>
           <Socials />
           <Link href="/privacy" onClick={() => menu.current?.close()}>
-            Privacy · © 2026 Miles Okoro
+            Privacy · © 2026 Henry Chen
           </Link>
         </section>
       </dialog>
@@ -154,7 +101,7 @@ export function Footer() {
         new Intl.DateTimeFormat("en-US", {
           hour: "numeric",
           minute: "2-digit",
-          timeZone: "America/Chicago",
+          timeZone: "Asia/Shanghai",
         }).format(new Date()),
       );
     const timer = setInterval(update, 1000);
@@ -166,39 +113,26 @@ export function Footer() {
   }, []);
   return (
     <>
-      {route !== "/" && !route.startsWith("/work/") && (
+      {route !== "/" && (
         <footer className="siteFooter">
           <div className="cta">
             <OrbitSeal />
-            <Link href="/contact">
-              Planning a new website? Tell me about it.
-            </Link>
+            <Link href="/contact">联系陈豪辉</Link>
           </div>
           <div className="footerRow">
-            <a className="email" href="mailto:hello@milesokoro.com">
-              hello@milesokoro.com
+            <a className="email" href="mailto:hhc7885@gmail.com">
+              hhc7885@gmail.com
             </a>
             <Socials />
           </div>
           <div className="footerRow fine">
-            <span>Chicago, Illinois · Local time {time}</span>
+            <span>Guangzhou, China · Local time {time}</span>
             <span>
-              <Link href="/privacy">Privacy</Link>　 © 2026 Miles Okoro
+              <Link href="/privacy">Privacy</Link>　 © 2026 Henry Chen
             </span>
           </div>
         </footer>
       )}
-      <a
-        className="framerBadge"
-        href="https://www.framer.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <svg width="12" height="18" viewBox="0 0 12 18" aria-hidden="true">
-          <path d="M0 0h12v6H6zm0 6h6l6 6H6v6l-6-6z" />
-        </svg>
-        Made in Framer
-      </a>
     </>
   );
 }

@@ -1,134 +1,33 @@
 {
-  "about": {
+  "work": {
     "head": [
-      "I design the site, and I build it myself.",
-      "One designer, from the first call to the day it goes live. Nothing is handed over halfway, so nothing is lost in the handover."
-    ],
-    "facts": [
-      ["Based in", "Chicago, Illinois"],
-      ["Working since", "2017"],
-      ["At a time", "Two projects"],
-      ["Typical length", "5 to 10 weeks"],
-      ["Projects from", "$15,000"]
-    ],
-    "intro": [
-      "I’m Miles. I’ve been making websites since 2017, first inside two agencies, and on my own since 2021.",
-      "Most of my clients are founders and marketing leads who have outgrown the site they started with. They arrive with a product, a deadline, and a folder of screenshots they like. That is enough to begin.",
-      "I take two projects at a time. That is the whole studio, and it is the reason you talk to the person doing the work rather than to an account manager."
-    ],
-    "services": [
-      [
-        "Web design",
-        "Structure, layout, and type for every page, on a desktop and on a phone. You see the homepage in a browser before anything else is drawn."
-      ],
-      [
-        "Art direction",
-        "Photography or illustration for the site, and the brief for whoever makes it. I shoot nothing I cannot direct."
-      ],
-      [
-        "Development",
-        "I build what I design, with a CMS you can edit and a recorded walkthrough of how to edit it."
-      ],
-      [
-        "Motion",
-        "Page transitions and hover states that hold up on a four year old phone, and switch off for anyone who asks for less motion."
-      ],
-      [
-        "Brand",
-        "A wordmark, a palette, and type, when a new company needs them before it needs a site."
-      ]
-    ],
-    "process": [
-      [
-        "01",
-        "Call",
-        "Thirty minutes about your company, the site you have, and what the new one has to do. No charge, no deck."
-      ],
-      [
-        "02",
-        "Proposal",
-        "Pages, price, and dates in one document. Work starts the day you sign it."
-      ],
-      [
-        "03",
-        "Design",
-        "You see the homepage first, in a browser, not a slide. Once we agree on it, the other pages follow in a week."
-      ],
-      [
-        "04",
-        "Build and launch",
-        "I build the site, move the content, and launch it with you on a call. Then I show you how to run it yourself."
-      ]
-    ],
-    "clients": "Pelagraph · Ostrander Field · Silvanine · Plume Atlas · Oddfathom · Nye Okada · The Ostler · Saltlick Labs"
+      "Selected work. Open experiments.",
+      "品牌策划、内容创意与 AI 交互探索。这里收录六个项目，从洞察与概念，到视觉表达和可体验的原型。"
+    ]
   },
   "contact": {
     "head": [
-      "Tell me about the website.",
-      "A few lines are enough. I reply within two business days."
+      "联系方式"
     ]
   },
   "privacy": {
-    "head": ["Privacy Policy", "Effective November 1, 2026"],
+    "head": [
+      "Privacy",
+      "个人作品集 · 2026 年 11 月更新"
+    ],
     "blocks": [
       {
-        "heading": "",
-        "body": "This site is run by Miles Okoro, an independent web designer based in Chicago, Illinois. This policy explains what personal information I collect through this site, how I use it, and the choices you have. If you have questions, email hello@milesokoro.com."
+        "heading": "关于本站",
+        "body": "这是陈豪辉 Henry Chen 的个人作品集，展示学习、竞赛与独立创作项目。联系邮箱为 hhc7885@gmail.com。"
       },
       {
-        "heading": "What I collect",
-        "body": "Information you give me. When you use the contact form, I receive your name, email address, company, and your brief. When you email me or message me on WhatsApp, I receive whatever you include."
+        "heading": "本地设置",
+        "body": "网站会在浏览器中保存浅色或深色主题及音效偏好，方便下次访问。可通过浏览器清除网站数据重置。"
       },
       {
-        "heading": "",
-        "body": "Information collected automatically. The site’s hosting provider collects standard technical data, such as your IP address, browser type, and the pages you visit, to run and secure the site."
-      },
-      {
-        "heading": "",
-        "body": "Settings saved in your browser. The site remembers your choice of light or dark theme and whether sound is on. These settings stay in your browser and are not sent to me."
-      },
-      {
-        "heading": "How I use it",
-        "body": "To reply to you, prepare a proposal, run a project we agree on, and keep the site secure. I don’t use your information for advertising, and I don’t sell it or share it for advertising."
-      },
-      {
-        "heading": "Who I share it with",
-        "body": "Only with service providers that help me run the site and my business: the website host, the form service, and my email provider. They process it so I can run the site and reply to you. I may also disclose information when the law requires it."
-      },
-      {
-        "heading": "Cookies and tracking",
-        "body": "This site doesn’t use advertising cookies or analytics that follow you across other sites. The host may set a technical cookie to run the site."
-      },
-      {
-        "heading": "Do Not Track",
-        "body": "Some browsers send a Do Not Track signal. I don’t change how this site works based on that signal."
-      },
-      {
-        "heading": "How long I keep it",
-        "body": "I keep messages and project records only as long as I need them to reply, do the work, and meet tax and legal requirements. Then I delete them."
-      },
-      {
-        "heading": "Your choices",
-        "body": "You can ask to see, correct, or delete the personal information I hold about you by emailing hello@milesokoro.com. I’ll reply as soon as I can."
-      },
-      {
-        "heading": "Children",
-        "body": "This site isn’t meant for children under 13, and I don’t knowingly collect their information."
-      },
-      {
-        "heading": "Changes to this policy",
-        "body": "If this policy changes, I’ll post the new version on this page and update the effective date at the top."
-      },
-      {
-        "heading": "Contact",
-        "body": "Miles Okoro · hello@milesokoro.com · Chicago, Illinois"
+        "heading": "网站托管与外部链接",
+        "body": "正式版本使用 GitHub Pages 托管。点击外部作品或 GitHub 链接后，将进入对应服务。相关数据处理规则由各服务说明。"
       }
-    ]
-  },
-  "work": {
-    "head": [
-      "Eight websites, designed and built.",
-      "Software, fashion, travel, hospitality. Every one of them designed, built, and launched by the same person."
     ]
   }
 }

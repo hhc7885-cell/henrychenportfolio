@@ -1,0 +1,122 @@
+.resume {
+  padding-block: 86px 96px;
+}
+.profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 76px;
+}
+.identity h1 {
+  font-size: clamp(52px, 7vw, 104px);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+.identity > p {
+  margin-top: 16px;
+  color: var(--mute);
+  font-size: 24px;
+}
+.identity address {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 25px;
+  margin-top: 28px;
+  font: normal 14px/1.6 var(--mono);
+}
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+  gap: 24px;
+  padding-block: 34px 44px;
+  border-top: 1px solid var(--line);
+}
+.section h2 {
+  margin: 0;
+  font-size: 23px;
+}
+.entry + .entry {
+  border-top: 1px solid var(--line);
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.entryHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px 20px;
+}
+.entryHeading h3 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+}
+.date {
+  font: 12px/1.65 var(--mono);
+  color: var(--mute);
+}
+.role {
+  margin: 8px 0 14px;
+  color: var(--mute);
+  font-size: 14px;
+}
+.entry ul {
+  margin: 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 9px;
+  color: var(--mute);
+  font-size: 15px;
+  line-height: 1.85;
+}
+.identity a,
+.contact dd a {
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.25em;
+}
+.identity a:hover,
+.contact dd a:hover {
+  text-decoration-color: currentColor;
+}
+.contact {
+  font-style: normal;
+  padding-bottom: 96px;
+}
+.contact dl {
+  margin: 0 0 26px;
+  max-width: 750px;
+}
+.contact dl > div {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: baseline;
+  border-top: 1px solid var(--line);
+  padding-block: 21px;
+}
+.contact dt {
+  color: var(--mute);
+  font-size: 13px;
+}
+.contact dd {
+  margin: 0;
+  font-size: clamp(18px, 3vw, 35px);
+  overflow-wrap: anywhere;
+}
+@media (max-width: 809px) {
+  .resume { padding-block: 48px 58px; }
+  .profile { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-bottom: 42px; }
+  .identity > p { margin-top: 8px; font-size: 19px; }
+  .identity address { margin-top: 18px; }
+  .section { grid-template-columns: minmax(0, 1fr); padding-block: 26px 34px; gap: 14px; }
+  .contact { padding-bottom: 58px; }
+  .contact dl > div { grid-template-columns: 54px 1fr; }
+}
+

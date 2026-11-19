@@ -1,146 +1,134 @@
 [
   {
-    "slug": "pelagraph",
-    "title": "Pelagraph",
-    "essence": "Website for a seafloor mapping platform",
-    "client": "Pelagraph",
-    "industry": "Software",
-    "services": "Web design · Development",
+    "slug": "rhythm-swing",
+    "title": "Rhythm Swing",
+    "essence": "律动摇摆 · 果味高蛋白奶昔产品概念",
+    "client": "元气森林宇宙大赛",
+    "industry": "Product concept",
+    "services": "洞察 · 品牌 · 包装",
     "year": "2026",
-    "timeline": "8 weeks",
-    "location": "Providence, Rhode Island",
-    "about": "Pelagraph surveys the seabed for companies planning offshore wind farms and delivers the results in its own mapping platform. The old site explained the platform in long paragraphs and kept every map behind a demo request. The engineers who pick a survey vendor want to see data before they talk to anyone.",
-    "did": "I put a contour relief from a sample survey on the first screen, kept the depth labels on it, and held the headline to three words. The site is short: how the platform works, how a survey runs, sample data, then the request form. I built it too. Each survey is an entry the team publishes on its own.",
-    "cover": "/sites/mutoscope/projects/pelagraph/cover.jpg",
+    "timeline": "独自参赛",
+    "location": "中山大学",
+    "about": "从 Z 世代对高蛋白补充与低负担口感的需求出发，探索果味高蛋白奶昔的产品机会。以「律动摇摆」与「无痛自律」为概念，把功能利益转化成轻松、可感知的品牌体验。本项目为竞赛方案，产品包装与上市计划属于概念设计。",
+    "did": "独立完成消费者洞察、产品定位、品牌命名、包装概念与整套营销策划，结合 AIGC 进行视觉探索并推进产品打样。该方案进入元气森林第五届宇宙大赛决赛并获得 TOP2。",
+    "source": "/sites/henry/originals/rhythm-swing.pdf",
+    "sourceLabel": "阅读完整产品策划",
     "screens": [
-      "/sites/mutoscope/projects/pelagraph/screen-1.jpg",
-      "/sites/mutoscope/projects/pelagraph/screen-2.jpg"
-    ]
+      "/sites/henry/gallery/rhythm-flavours.webp",
+      "/sites/henry/gallery/rhythm-packaging.webp"
+    ],
+    "cover": "/sites/henry/covers/rhythm-swing.webp",
+    "download": "",
+    "documentInfo": "完整方案 · PDF 在线阅读"
   },
   {
-    "slug": "ostrander-field",
-    "title": "Ostrander Field",
-    "essence": "Online store for an outerwear label",
-    "client": "Ostrander Field",
-    "industry": "Fashion",
-    "services": "Art direction · Web design",
-    "year": "2025",
-    "timeline": "6 weeks",
-    "location": "Duluth, Minnesota",
-    "about": "Ostrander Field makes wool coats and parkas in Duluth, a few styles each season. The old store showed every coat as a small catalog thumbnail.",
-    "did": "I art directed a shoot with no models: each coat on an invisible form, lit from the side, so you can see the cut and the cloth. The wordmark runs behind the coat in a tall condensed serif. A product page opens with one large photograph and keeps size, fabric, and care in a single column. The lookbook sits on the same grid, so a new season only needs new photographs.",
-    "cover": "/sites/mutoscope/projects/ostrander-field/cover.jpg",
-    "screens": [
-      "/sites/mutoscope/projects/ostrander-field/screen-1.jpg",
-      "/sites/mutoscope/projects/ostrander-field/screen-2.jpg"
-    ]
-  },
-  {
-    "slug": "silvanine",
-    "title": "Silvanine",
-    "essence": "Brand and website for a forest carbon marketplace",
-    "client": "Silvanine",
-    "industry": "Climate",
-    "services": "Web design · Brand",
-    "year": "2025",
-    "timeline": "9 weeks",
-    "location": "Burlington, Vermont",
-    "about": "Silvanine helps family forest owners enroll their woodland in a voluntary carbon program and connects them with the companies buying the credits. The two groups share almost no vocabulary, and one site has to speak to both.",
-    "did": "I started with the brand: a dark green wordmark in a serif that holds up on top of an aerial photograph. On the site every forest is a parcel seen from above, outlined, with its acreage next to it. The first screen speaks to landowners. Buyers go in through the parcel catalog. The method page explains in plain language how a credit is measured, with each source linked.",
-    "cover": "/sites/mutoscope/projects/silvanine/cover.jpg",
-    "screens": [
-      "/sites/mutoscope/projects/silvanine/screen-1.jpg",
-      "/sites/mutoscope/projects/silvanine/screen-2.jpg"
-    ]
-  },
-  {
-    "slug": "plume-atlas",
-    "title": "Plume Atlas",
-    "essence": "Trip catalog for a birding tour company",
-    "client": "Plume Atlas",
-    "industry": "Travel",
-    "services": "Web design · Development",
-    "year": "2024",
-    "timeline": "7 weeks",
-    "location": "Tucson, Arizona",
-    "about": "Plume Atlas runs small-group birding trips led by local guides. The trip list used to be a PDF that went out by email twice a year, and it was out of date a week later.",
-    "did": "I designed the site like a field journal: cream paper and one bird per trip, cut out and set large. A trip page lists the dates, the guide, the birds people usually see, and what a day looks like. Trips and guides live in the CMS, and the list on the homepage pulls from the same dates the team edits.",
-    "cover": "/sites/mutoscope/projects/plume-atlas/cover.jpg",
-    "screens": [
-      "/sites/mutoscope/projects/plume-atlas/screen-1.jpg",
-      "/sites/mutoscope/projects/plume-atlas/screen-2.jpg"
-    ]
-  },
-  {
-    "slug": "oddfathom",
-    "title": "Oddfathom",
-    "essence": "Studio site for a deep-sea game developer",
-    "client": "Oddfathom",
-    "industry": "Games",
-    "services": "Art direction · Web design · Motion",
+    "slug": "tuborg",
+    "title": "Tuborg Freeze",
+    "essence": "别抖了宝，来抖乐堡 · 人生重要时刻整合传播",
+    "client": "嘉士伯高校商业挑战赛",
+    "industry": "Integrated campaign",
+    "services": "洞察 · 创意 · 整合营销",
     "year": "2026",
-    "timeline": "10 weeks",
-    "location": "Madison, Wisconsin",
-    "about": "Oddfathom is a small independent studio making adventure games set in the deep sea. With a new game announced for 2027, they needed one place for the trailer, the press kit, and the devlog.",
-    "did": "The creatures are the studio’s own 3D models. I art directed how they appear on the site: a black page, their own glow as the only light, and the wordmark set low so a creature can drift across it. I designed the page transitions and the trailer reveal, then documented the motion step by step for the studio’s programmer, who built it. The devlog is plain on purpose, so a post takes minutes to publish.",
-    "cover": "/sites/mutoscope/projects/oddfathom/cover.jpg",
+    "timeline": "团队队长",
+    "location": "中山大学",
+    "about": "重要时刻前的紧张，有时会变成身体的发抖。把这个生理反应与乐堡冻冻酒「Shake 10 下」的产品动作相连接，形成「别抖了宝，来抖乐堡」的核心创意。本项目为面向成年消费者的商业挑战赛策划方案。",
+    "did": "作为队长推进消费者洞察与策略推导。以「从被动的 Shaking，到主动的 Shake」为主线，通过情绪共鸣 MV、UGC 共创、SHAKE STUDIO 线下体验和产品组合设计，把重要时刻前的紧张转化为主动迈出一步的参与体验。",
+    "source": "/sites/henry/originals/tuborg.pdf",
+    "sourceLabel": "阅读完整传播方案",
     "screens": [
-      "/sites/mutoscope/projects/oddfathom/screen-1.jpg",
-      "/sites/mutoscope/projects/oddfathom/screen-2.jpg"
-    ]
+      "/sites/henry/gallery/tuborg-latest-01.webp",
+      "/sites/henry/gallery/tuborg-latest-05.webp"
+    ],
+    "cover": "/sites/henry/covers/tuborg.webp",
+    "download": "/sites/henry/originals/tuborg-latest.pptx",
+    "documentInfo": "完整 15 页方案 · PDF 在线阅读 / PPTX 下载"
   },
   {
-    "slug": "nye-okada",
-    "title": "Nye Okada",
-    "essence": "Portfolio for an architecture practice",
-    "client": "Nye Okada",
-    "industry": "Architecture",
-    "services": "Web design",
-    "year": "2024",
-    "timeline": "5 weeks",
-    "location": "Minneapolis, Minnesota",
-    "about": "Nye Okada is an architecture practice in Minneapolis that designs houses and small civic buildings. The partners asked for a quiet site with small type and large photographs.",
-    "did": "I set the whole site on one thin grid and placed each photograph off center on it, the way a drawing sits on a sheet. Projects are numbered, and that numbered index is the navigation. The type is one light grotesque in two sizes. A project page holds photographs, a plan, and five lines of facts. A developer built it from my files.",
-    "cover": "/sites/mutoscope/projects/nye-okada/cover.jpg",
-    "screens": [
-      "/sites/mutoscope/projects/nye-okada/screen-1.jpg",
-      "/sites/mutoscope/projects/nye-okada/screen-2.jpg"
-    ]
-  },
-  {
-    "slug": "the-ostler",
-    "title": "The Ostler",
-    "essence": "Website for a 28-room hotel",
-    "client": "The Ostler",
-    "industry": "Hospitality",
-    "services": "Art direction · Web design · Development",
-    "year": "2025",
-    "timeline": "8 weeks",
-    "location": "Lexington, Kentucky",
-    "about": "The Ostler is a 28-room hotel in a former livery stable in Lexington. It was weeks from opening, with a booking engine and no site to send guests to.",
-    "did": "The building has arched stable doors, so the arch became the frame for every photograph on the site. I art directed the room photography: brick, linen, one brass lamp, nobody in the shot. The colors come from the building too, oxblood and cream. I built the site so the staff can update rooms, the dining menu, and bar hours themselves, and I pointed Book a stay at their booking engine.",
-    "cover": "/sites/mutoscope/projects/the-ostler/cover.jpg",
-    "screens": [
-      "/sites/mutoscope/projects/the-ostler/screen-1.jpg",
-      "/sites/mutoscope/projects/the-ostler/screen-2.jpg"
-    ]
-  },
-  {
-    "slug": "saltlick-labs",
-    "title": "Saltlick Labs",
-    "essence": "Marketing site for restaurant sales analytics",
-    "client": "Saltlick Labs",
-    "industry": "AI",
-    "services": "Web design · Development",
+    "slug": "buddy-one",
+    "title": "Buddy One",
+    "essence": "AI 可以一样，想法不必一样。",
+    "client": "鹅创营 · 个人课题",
+    "industry": "Creative communication",
+    "services": "产品理解 · 策略 · 社交内容",
     "year": "2026",
-    "timeline": "6 weeks",
-    "location": "Chicago, Illinois",
-    "about": "Saltlick Labs reads a restaurant group’s sales as they happen and tells managers what sold, and where, before the kitchen closes. Its models also forecast what to prep tomorrow. The product worked, and the website was a login page.",
-    "did": "I wrote the headline with the founders first and designed the page under it. The interface appears as cards with real dish names, large enough to read, so an operator understands the product before booking a demo. I kept one typeface and one orange. The pricing page has three plans. I built the site and left room for customer stories the team will add later.",
-    "cover": "/sites/mutoscope/projects/saltlick-labs/cover.jpg",
+    "timeline": "策划方案",
+    "location": "中山大学",
+    "about": "当 AI 让人人都能创作，人的独特性如何继续成为创造力的来源？方案把个人积累与 AI 办事能力连接起来，围绕「Buddy One，让 AI 用上你的不同」组织传播主张。",
+    "did": "从产品能力边界、时代观察和消费者洞察出发，完成创意传播策划，并以小红书九页图文串联同质化作业、个人研究和知识连接等场景。方案区分概念演示与实测，不将完整跨应用记忆互通作为已上线卖点。",
+    "source": "/sites/henry/originals/buddy-one.html",
+    "sourceLabel": "阅读完整创意方案",
     "screens": [
-      "/sites/mutoscope/projects/saltlick-labs/screen-1.jpg",
-      "/sites/mutoscope/projects/saltlick-labs/screen-2.jpg"
-    ]
+      "/sites/henry/gallery/buddy-1.webp",
+      "/sites/henry/gallery/buddy-7.webp"
+    ],
+    "cover": "/sites/henry/covers/buddy-one-v2.webp",
+    "download": "",
+    "documentInfo": "完整策划方案 · 网页阅读"
+  },
+  {
+    "slug": "marvis",
+    "title": "Marvis",
+    "essence": "大学生电脑生存指南 · 校园传播策划",
+    "client": "鹅创营 · 个人课题",
+    "industry": "Campus communication",
+    "services": "用户洞察 · 小红书 · 达人策略",
+    "year": "2026",
+    "timeline": "个人策划",
+    "location": "中山大学",
+    "about": "小组作业、期末 DDL 和电脑续航问题构成真实的校园求助场景。围绕「电脑小问题，先让 Marvis 查一查」，将主动搜索、校园情绪和产品信任连接成传播路径。",
+    "did": "规划搜索型图文、校园轻叙事与真实测评三类内容，形成达人筛选、六周试点节奏、15,000 元模拟预算和分层效果指标。预算与排期为策划假设，产品功能表述需结合实际测试版本核验。",
+    "source": "/sites/henry/originals/marvis.html",
+    "sourceLabel": "阅读完整校园传播方案",
+    "screens": [
+      "/sites/henry/gallery/marvis-original.webp",
+      "/sites/henry/gallery/marvis-document.png"
+    ],
+    "cover": "/sites/henry/covers/marvis.webp",
+    "download": "",
+    "documentInfo": "完整策划方案 · 网页阅读"
+  },
+  {
+    "slug": "daymaster",
+    "title": "Daymaster Atlas",
+    "essence": "日主人格图鉴 · 东方人格互动体验",
+    "client": "独立数字作品",
+    "industry": "Interactive experience",
+    "services": "概念 · 角色 · AI 原型",
+    "year": "2026",
+    "timeline": "独立探索",
+    "location": "中山大学",
+    "about": "将八字日主中的传统概念转译成可浏览、可认领、可分享的角色图鉴。以五行色彩和角色叙事，让抽象的文化符号进入年轻用户的自我表达。",
+    "did": "围绕人格角色、交互路径与图鉴视觉组织数字体验，结合 AI 进行角色和界面探索。以文化创意与自我观察为体验语境。",
+    "source": "https://day-master-personality.netlify.app/",
+    "sourceLabel": "打开互动图鉴",
+    "screens": [
+      "/sites/henry/gallery/daymaster-jia.webp",
+      "/sites/henry/gallery/daymaster-bing.webp"
+    ],
+    "cover": "/sites/henry/covers/daymaster.webp",
+    "download": "",
+    "documentInfo": "互动网站 · 新窗口打开"
+  },
+  {
+    "slug": "market-agent",
+    "title": "Market Agent",
+    "essence": "商品竞品分析 Agent · 可追踪的协作工作流",
+    "client": "独立 AI 原型",
+    "industry": "AI product prototype",
+    "services": "工作流 · 产品 · 前端原型",
+    "year": "2026",
+    "timeline": "交互演示",
+    "location": "中山大学",
+    "about": "商品竞品分析需要完成搜索、资料收集、维度比较、分析与报告写作。这个原型把多个 Agent 的协作过程呈现在同一工作台，让用户看到每一步如何推进。",
+    "did": "以阶段化任务、可编辑的分析范围和示例证据记录组织原型。工作台提供前端流程演示，以示例数据与任务状态说明多 Agent 协作的交互思路。",
+    "source": "/sites/henry/originals/agent.html",
+    "sourceLabel": "打开原型演示",
+    "screens": [
+      "/sites/henry/gallery/agent-original.webp",
+      "/sites/henry/gallery/agent-document.png"
+    ],
+    "cover": "/sites/henry/covers/market-agent-v2.webp",
+    "download": "",
+    "documentInfo": "交互原型 · 新窗口打开"
   }
 ]
