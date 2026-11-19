@@ -91,6 +91,8 @@ button:focus-visible {
   pointer-events: auto;
 }
 .topbar .brand {
+  text-transform: none;
+  letter-spacing: 0.04em;
   margin-right: auto;
   font-size: 13px;
   color: var(--ink);
